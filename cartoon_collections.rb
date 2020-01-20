@@ -12,5 +12,5 @@ def roll_call_dwarves(source_array)
 
  def find_the_cheese(source_array)
   cheeses = ["cheddar", "gouda", "camembert"]
-  source_array.find { | food | cheeses.include?(food)}
+  source_array.find { | food | cheeses.include?(food)}filter_parameter_logging
 end
